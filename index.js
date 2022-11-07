@@ -68,7 +68,7 @@ async function run(){
 run().catch(err => console.error(err));
 
 app.get('/', (req, res) =>{
-    res.send('ema john server is running');
+    res.send('islavo audio server is running');
 })
 
 app.listen(port, () =>{
